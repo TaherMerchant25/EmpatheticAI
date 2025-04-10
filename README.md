@@ -41,13 +41,14 @@ cd EmpatheticAI
 
 ```
 ### 2. Install Dependencies
+```
 pip install streamlit google-generativeai python-dotenv scikit-learn
 ```
-```
 ### 3. Setup your environment variables
+```
 GEMINI_API_KEY=your-google-api-key-here
 ```
-```
 ### 🚀 How to Run
+```
 streamlit run main_f.py
 ```
