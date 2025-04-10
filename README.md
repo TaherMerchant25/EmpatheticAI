@@ -1,2 +1,47 @@
-# EmpatheticAI
- EmpatheticAI is an AI-powered mental health chatbot that offers supportive conversations for users dealing with trauma, depression, anxiety, and more. Built to provide empathetic listening and therapeutic guidance using sentiment analysis and Gemini AI.
+# 🤖❤️ EmpatheticAI: Your Mental Health Companion
+
+EmpatheticAI is an AI-powered, sentiment-aware mental health chatbot that offers therapeutic, non-judgmental conversations to individuals struggling with **depression**, **anxiety**, **trauma**, **stress**, and more. Built with Google's **Gemini AI**, **Streamlit**, and a custom **Sentiment Vector Database**, it provides real-time emotional support while integrating **RAG (Retrieval-Augmented Generation)** for enhanced contextual awareness.
+
+> ⚠️ *This is not a replacement for professional therapy. Please seek professional help when in crisis.*
+
+---
+
+## 🌟 Features
+
+- 🧠 **AI Therapy Chatbot** powered by **Gemini 1.5 Pro & Gemini Flash**
+- 💬 **Streamlit UI** with conversational chat interface
+- 📊 **Sentiment Analysis** using vector similarity and past emotional context
+- 🔍 **RAG-Driven Context Awareness** to tailor responses to your emotional patterns
+- 🚨 **Crisis Detection**: Identifies suicidal ideation and provides helpline resources
+- 📚 **Conversation Memory**: Maintains chat history for a deeper, contextual connection
+- 🧩 **Modular Design** for easy extensions (journaling, self-care tips, etc.)
+
+---
+
+## 🛠️ Tech Stack
+
+- `Python`
+- `Streamlit`
+- `Google Generative AI (Gemini)`
+- `scikit-learn` (for vector similarity)
+- `dotenv` for secure API management
+- `Pickle` for local database storage
+
+---
+
+## 🧪 Installation
+
+First, ensure Python 3.8+ is installed.
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/EmpatheticAI.git
+cd EmpatheticAI
+
+pip install streamlit google-generativeai python-dotenv scikit-learn
+
+GEMINI_API_KEY=your-google-api-key-here
+
+streamlit run main_f.py
+
