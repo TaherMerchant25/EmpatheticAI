@@ -6,7 +6,7 @@ import re
 
 
 class GeminiChatbot:
-    def __init__(self, api_key="AIzaSyDPDDbuPWtUd5mskmQcxzGh4gjnGu8zV-0"):
+    def __init__(self, api_key=""):
         """
         Initialize the Gemini chatbot.
 
