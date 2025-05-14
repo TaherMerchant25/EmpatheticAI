@@ -37,7 +37,7 @@ First, ensure Python 3.8+ is installed.
 
 ```yaml
 git clone https://github.com/TaherMerchant25/EmpatheticAI.git
-cd EmpatheticAI/Working_Code
+cd EmpatheticAI/Workingcode/
 
 ```
 ### 2. Install Dependencies
